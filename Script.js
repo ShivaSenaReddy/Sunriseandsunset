@@ -48,8 +48,8 @@ async function getTimings() {
         sunriseel = document.getElementById('sunriseel');
         sunsetel = document.getElementById('sunsetel');
         console.log(typeof (data.results.sunrise));
-        sunriseel.textContent = data.results.sunrise;
-        sunsetel.textContent = data.results.sunset;
+        sunriseel.textContent = data.results.sunrise +" UTC(IST-5:30)";
+        sunsetel.textContent = data.results.sunset + " UTC(IST-5:30)";
     }
 }
 
